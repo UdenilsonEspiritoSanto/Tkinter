@@ -194,7 +194,7 @@ btnlimpar = tk.Button(tela_cli, text ="Limpar",
                        bg ='black',foreground='white', font=('Calibri', 12, 'bold'), command = limpar)
 btnlimpar.place(x = 350, y = 350, width = 65)
 
-btnmenu = tk.Button(tela_cli, text ="Menu", 
+btnmenu = tk.Button(tela_cli, text ="Menu",
                        bg ='black',foreground='white', font=('Calibri', 12, 'bold'), command = menu)
 btnmenu.place(x = 450, y = 350, width = 65)
 
