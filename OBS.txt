@@ -1,0 +1,9 @@
+ - primeiro criar a base de dados controle e tabela clientes
+
+com campos:
+
+codigo int
+nome varchar
+telefone varchar
+email varchar
+obs varchar
