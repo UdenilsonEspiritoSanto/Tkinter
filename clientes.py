@@ -145,7 +145,7 @@ pes_nome = tela_cli.register(func=pesquisar_nome)
 
 lblcodigo = tk.Label(tela_cli, text ="Codigo:", bg="dimgray", fg="white", font=('Calibri', 12), anchor = "w")
 lblcodigo.place(x = 50, y = 60, width=80, height = 25)
-txtcodigo = tk.Entry(tela_cli, width = 35, font=('Calibri', 12))
+txtcodigo = tk.Entry(tela_cli, width = 35,bg="yellow", font=('Calibri', 12))
 txtcodigo.place(x = 150, y = 60, width = 100, height = 25)
 txtcodigo.focus_set()
 
